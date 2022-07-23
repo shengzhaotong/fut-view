@@ -1,0 +1,149 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "随诊大厅"
+			}
+		},
+		{
+			"path": "pages/doctor/task/task",
+			"style" : {
+				"navigationBarTitleText":"我的任务"
+			}
+		},
+		{
+			"path": "pages/ucenter/info/info",
+			"style" : {
+				"navigationBarTitleText":"我的信息"
+			}
+		},
+		{
+			"path": "pages/ucenter/info/update",
+			"style" : {
+				"navigationBarTitleText":"修改信息"
+			}
+		}
+        ,{
+            "path" : "pages/ucenter/ucenter",
+            "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText":"个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/add/add",
+            "style" : {
+				"navigationBarTitleText":"资料填写"
+			}
+        }
+        ,{
+            "path" : "pages/appointment/info",
+            "style" : {
+				"navigationBarTitleText":"详细信息"
+			}
+        }
+        ,{
+            "path" : "pages/appointment/list",
+            "style" : {
+				"navigationBarTitleText":"预约记录"
+			}
+        }
+        ,{
+            "path" : "pages/ucenter/about_us",
+            "style" : {
+				"navigationBarTitleText":"关于我们"
+			}
+        },
+		{
+			"path": "pages/doctor/login/index",
+			"style" : {
+				"navigationBarTitleText":"登录"
+			}
+		},
+		{
+			"path": "pages/doctor/task/info",
+			"style" : {
+				"navigationBarTitleText":"预约信息"
+			}
+		},
+		{
+			"path": "pages/ucenter/doctor/info",
+			"style" : {
+				"navigationBarTitleText":"陪诊员信息"
+			}
+		},
+		{
+			"path": "pages/ucenter/doctor/update",
+			"style" : {
+				"navigationBarTitleText":"修改密码"
+			}
+		},
+		{
+			"path": "pages/admin/login",
+			"style" : {
+				"navigationBarTitleText":"管理员登录"
+			}
+		},
+		{
+			"path": "pages/admin/appointment",
+			"style" : {
+				"navigationBarTitleText":"预约信息"
+			}
+		},
+		{
+			"path": "pages/admin/showAll",
+			"style" : {
+				"navigationBarTitleText":"预约者列表"
+			}
+		},
+		{
+			"path": "pages/admin/showInfo",
+			"style" : {
+				"navigationBarTitleText":"预约信息"
+			}
+		},
+		{
+			"path": "pages/admin/attendant",
+			"style" : {
+				"navigationBarTitleText":"陪诊员列表"
+			}
+		},
+		{
+			"path": "pages/admin/attendantInfo",
+			"style" : {
+				"navigationBarTitleText":"陪诊员列表"
+			}
+		}
+    ],
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#66ccff",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"selectedIconPath":"static/tabBar/indexS.png",
+				"iconPath":"static/tabBar/index.png",
+				"text":"首页"
+			},
+			{
+				"pagePath": "pages/doctor/login/index",
+				"selectedIconPath": "static/tabBar/pzyS.png",
+				"iconPath": "static/tabBar/pzy.png",
+				"text": "我是陪诊员"
+			},
+			{
+				"pagePath":"pages/ucenter/ucenter",
+				"selectedIconPath":"static/tabBar/ucenterS.png",
+				"iconPath":"static/tabBar/ucenter.png",
+				"text":"我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "出入管理",
+		"navigationBarBackgroundColor": "#66ccff"
+	}
+	//
+}
